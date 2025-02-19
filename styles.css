@@ -1,0 +1,195 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header & Navigation */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 2rem;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  
+  /* Sections */
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  /* Hero Section */
+  #hero {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #e2e2e2;
+    margin-bottom: 2rem;
+  }
+  
+  #hero h1 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Featured Content */
+  #featured article {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    background-color: #fafafa;
+  }
+  
+  /* Contact Section */
+  #contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #contact ul li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  #contact ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  #contact ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav ul li {
+      margin: 0.5rem 0;
+    }
+  }
+
+  .site-title {
+    text-align: center;
+    background-color: #333;
+    padding: 1rem 0;
+  }
+  
+  .site-title h1 {
+    color: #fff;
+    margin: 0;
+  }
+  
+  /* Community Section */
+#community {
+    padding: 2rem;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  /* Grid container for community articles */
+  .community-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  /* Community Organization Card */
+  .community-organization {
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+  
+  .community-organization:hover {
+    transform: translateY(-5px);
+  }
+  
+  .community-organization h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .community-organization p {
+    color: #555;
+  }
+  
+  .community-organization a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .community-organization a:hover {
+    text-decoration: underline;
+  }
+
+  /* Center the titles on the Projects and Community pages */
+#projects h1,
+#community h2 {
+  text-align: center;
+}
+
+.bio-images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .bio-images img {
+    max-width: 45%;
+    height: auto;
+    border-radius: 8px;
+  }

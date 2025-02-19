@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About John</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Limit the about section width to match your text content */
+    #about {
+      max-width: 800px; /* adjust as needed */
+      margin: 0 auto;
+    }
+
+    /* Container for the bio images */
+    .bio-images {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    
+    .bio-images img {
+      max-width: 30%;  /* With three images, this ensures they each take roughly equal space */
+      height: auto;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="site-title">
+      <h1>More About John</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="community.html">Community</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="about">
+      <h1>About Me</h1>
+      <p>
+        Hi, my name is John, but my friends call me Jack. I'm a computer science student and researcher with an emphasis on cyber security. I am a member of the ΣN Fraternity, ZΛ692, and the vice president of the University of Tulsa Amateur Radio Club (UTARC). I have a technician class amateur radio license in the United States, and my callsign is KJ5EDU for any fellow HAMs reading! My work experience involves cyber forensics research including deep investigation into internet of things devices, the Windows 10/11 operating systems, and very small contributions to many other projects. I program as a hobby, and have varying levels of experience in Python, Java, C, and Scratch. You can guess which one I started with. Although my hardware expertise is limited, I have a passing familiarity with circuitry and hope to do some tinkering work soon on a few primitive inventions you'll find on my projects page. I love the internet and am a passionate advocate for network security, online freedom of speech, and data integrity. I believe in the positive impact an open, healthy, and long term system of information exchange can have on our society. On my community page, you will find information about a number of non-profits with tangible missions for all aspects of community support, but especially organizations dedicated to improving, protecting, and maintaining the internet and related spaces. In my free time, I like to hike outside, cook interesting new foods, and play tabletop games with my friends. Fantasy and science fiction have always captivated my attention, and my favorite novel is <em>Frankenstein</em> by Mary Shelley. I love all pets, dogs most of all, and hope to adopt my own as soon as I move into a space that allows them.
+      </p>
+      <div class="bio-images">
+        <img src="resources/ruby.jpg" alt="My white mixed-breed dog, Ruby">
+        <img src="resources/george.jpg" alt="My golden doodle breed dog, George">
+        <img src="resources/pepper.jpg" alt="My corgi breed dog, Pepper">
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 John Mancino. All rights reserved.</p>
+  </footer>
+</body>
+</html>

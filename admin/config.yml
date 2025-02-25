@@ -1,11 +1,11 @@
 backend:
   name: github
   repo: jtmancino/site
-  branch: main  
-
+  branch: main
+  # This tells Netlify CMS to use your custom auth endpoint:
+  auth_endpoint: "https://jtmancino.netlify.app/.netlify/functions/auth"
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
-
 collections:
   - name: "blog"
     label: "Blog"
